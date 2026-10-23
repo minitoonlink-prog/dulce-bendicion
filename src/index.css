@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Quicksand", "Segoe UI", sans-serif;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --background: 41.54 76.47% 93.33%;
+  --foreground: 14.48 63.04% 18.04%;
+  --card: 41.54 76.47% 93.33%;
+  --card-foreground: 14.48 63.04% 18.04%;
+  --popover: 41.54 76.47% 93.33%;
+  --popover-foreground: 14.48 63.04% 18.04%;
+  --primary: 29.66 41.63% 59.02%;
+  --primary-foreground: 14.48 63.04% 18.04%;
+  --secondary: 35 48% 85%;
+  --secondary-foreground: 18 63% 18%;
+  --muted: 35 48% 85%;
+  --muted-foreground: 18 30% 36%;
+  --accent: 29.66 41.63% 59.02%;
+  --accent-foreground: 14.48 63.04% 18.04%;
+  --destructive: 353.29 65.3% 42.94%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 16.63 43.92% 37.06%;
+  --input: 16.63 43.92% 37.06%;
+  --ring: 29.66 41.63% 59.02%;
+  --radius: 0.75rem;
+}
+
+* {
+  border-color: hsl(var(--border) / 0.35);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: "Quicksand", "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: "Playfair Display", Georgia, serif;
+}
